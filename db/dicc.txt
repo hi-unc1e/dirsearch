@@ -5186,6 +5186,9 @@ graphql/graphql
 graphql/schema.json
 graphql/schema.xml
 graphql/schema.yaml
+graphql/console/
+-/graphql-explorer/
+graphql-explorer/
 grappelli/
 graylog/
 Greenhouse

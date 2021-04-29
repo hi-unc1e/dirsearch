@@ -5542,6 +5542,8 @@ graphql.js
 graphql.php
 graphql/
 graphql/console/
+-/graphql-explorer/
+graphql-explorer/
 grappelli/
 graylog/
 Greenhouse

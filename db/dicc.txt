@@ -5171,6 +5171,9 @@ graphql/graphql
 graphql/schema.json
 graphql/schema.xml
 graphql/schema.yaml
+graphql/console/
+-/graphql-explorer/
+graphql-explorer/
 grappelli/
 graylog/
 Greenhouse
@@ -9635,3 +9638,14 @@ zp/zp
 ~web
 ~www
 ~xfs
+swagger
+api/swagger
+swagger/ui
+api/swagger/ui
+swagger-ui.html
+api/swagger-ui.html
+user/swagger-ui.html
+libs/swaggerui
+api/swaggerui
+swagger-resources/configuration/ui
+swagger-resources/configuration/security

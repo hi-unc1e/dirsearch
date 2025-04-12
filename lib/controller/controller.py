@@ -18,10 +18,10 @@
 
 import gc
 import os
-import psycopg
+# import psycopg
 import re
 import time
-import mysql.connector
+# import mysql.connector
 
 from urllib.parse import urlparse
 

@@ -559,8 +559,8 @@ information at https://github.com/maurosoria/dirsearch.""")
                            type="int", dest="recursion_depth", default=self.recursion_depth, metavar="DEPTH")
         general.add_option("--recursion-status", help="Valid status codes to perform recursive scan, support ranges (separated by commas)",
                            action="store", dest="recursionStatusCodes", default=self.recursionStatusCodes, metavar="CODES")
-        general.add_option("--subdirs", help="Scan sub-directories of the given URL[s] (separated by commas)", action="store",
-                           dest="scanSubdirs", default=None, metavar="SUBDIRS")
+        general.add_option("-sb", "--subdirs", help="Scan sub-directories of the given URL[s] (separated by commas)", action="store",
+                   dest="scanSubdirs", default=None, metavar="SUBDIRS")
         general.add_option("--exclude-subdirs", help="Exclude the following subdirectories during recursive scan (separated by commas)",
                            action="store", dest="excludeSubdirs", default=self.excludeSubdirs, metavar="SUBDIRS")
         general.add_option("-i", "--include-status", help="Include status codes, separated by commas, support ranges (Example: 200,300-399)",

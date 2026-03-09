@@ -1279,6 +1279,7 @@
 .web-server-pid
 .webassets-cache
 .well
+.well-known/oauth-protected-resource
 .well-known/acme-challenge
 .well-known/acme-challenge/dtfy
 .well-known/apple-app-site-association
